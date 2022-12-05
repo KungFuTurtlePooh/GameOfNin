@@ -69,6 +69,7 @@ public class Player {
     // Returns one if there is only 1 piece left
     if(Board.getNumPieces() == 1)
     {
+      Board.type("\nBot took 1");
       return 1;
     }
 
